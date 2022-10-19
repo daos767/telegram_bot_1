@@ -11,7 +11,7 @@
  Target Server Version : 50568
  File Encoding         : 65001
 
- Date: 19/10/2022 22:34:52
+ Date: 19/10/2022 22:55:06
 */
 
 SET NAMES utf8mb4;
@@ -133,14 +133,13 @@ INSERT INTO `t_answers_keyboards` VALUES (36, 3, 12, 1, '↩️ Назад', 'bc
 DROP TABLE IF EXISTS `t_chats`;
 CREATE TABLE `t_chats`  (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `bot_id` int(10) NULL DEFAULT NULL,
   `chat_id` int(10) NULL DEFAULT NULL,
   `token` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `branch` int(5) NULL DEFAULT NULL,
   `step` int(5) NULL DEFAULT NULL,
   `is_authorization` int(1) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 9 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of t_chats
@@ -162,15 +161,10 @@ CREATE TABLE `t_dialogs`  (
   `date` int(10) NULL DEFAULT NULL,
   `text` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 66 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of t_dialogs
 -- ----------------------------
-INSERT INTO `t_dialogs` VALUES (61, '{\"update_id\":844123372,\"message\":{\"message_id\":1633,\"from\":{\"id\":325205717,\"is_bot\":false,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"language_code\":\"ru\"},\"chat\":{\"id\":325205717,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"type\":\"private\"},\"date\":1666201839,\"text\":\"🩸 Вбивці в Бучі/Ірпіні/Гостомелі\"}}', 1633, 'Кристина', 'brisevak', 'ru', 325205717, 'text', 1666201839, '🩸 Вбивці в Бучі/Ірпіні/Гостомелі');
-INSERT INTO `t_dialogs` VALUES (62, '{\"update_id\":844123373,\"message\":{\"message_id\":1635,\"from\":{\"id\":325205717,\"is_bot\":false,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"language_code\":\"ru\"},\"chat\":{\"id\":325205717,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"type\":\"private\"},\"date\":1666201842,\"text\":\"Ірпінь\"}}', 1635, 'Кристина', 'brisevak', 'ru', 325205717, 'text', 1666201842, 'Ірпінь');
-INSERT INTO `t_dialogs` VALUES (63, '{\"update_id\":844123374,\"message\":{\"message_id\":1638,\"from\":{\"id\":325205717,\"is_bot\":false,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"language_code\":\"ru\"},\"chat\":{\"id\":325205717,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"type\":\"private\"},\"date\":1666201855,\"photo\":[{\"file_id\":\"AgACAgIAAxkBAAIGZmNQOP7BE67IZRj53PXigu3rvaM9AAL3wDEbQMmASjQTA7gdTXHzAQADAgADcwADKgQ\",\"file_unique_id\":\"AQAD98AxG0DJgEp4\",\"file_size\":912,\"width\":42,\"height\":90},{\"file_id\":\"AgACAgIAAxkBAAIGZmNQOP7BE67IZRj53PXigu3rvaM9AAL3wDEbQMmASjQTA7gdTXHzAQADAgADbQADKgQ\",\"file_unique_id\":\"AQAD98AxG0DJgEpy\",\"file_size\":11380,\"width\":148,\"height\":320},{\"file_id\":\"AgACAgIAAxkBAAIGZmNQOP7BE67IZRj53PXigu3rvaM9AAL3wDEbQMmASjQTA7gdTXHzAQADAgADeAADKgQ\",\"file_unique_id\":\"AQAD98AxG0DJgEp9\",\"file_size\":40550,\"width\":369,\"height\":800},{\"file_id\":\"AgACAgIAAxkBAAIGZmNQOP7BE67IZRj53PXigu3rvaM9AAL3wDEbQMmASjQTA7gdTXHzAQADAgADeQADKgQ\",\"file_unique_id\":\"AQAD98AxG0DJgEp-\",\"file_size\":66413,\"width\":591,\"height\":1280}]}}', 1638, 'Кристина', 'brisevak', 'ru', 325205717, 'photo', 1666201855, 'https://test-chat1.ds1.net.ua/upload/325205717/photo/AgACAgIAAxkBAAIGZmNQOP7BE67IZRj53PXigu3rvaM9AAL3wDEbQMmASjQTA7gdTXHzAQADAgADeQADKgQ.jpg');
-INSERT INTO `t_dialogs` VALUES (64, '{\"update_id\":844123375,\"message\":{\"message_id\":1640,\"from\":{\"id\":325205717,\"is_bot\":false,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"language_code\":\"ru\"},\"chat\":{\"id\":325205717,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"type\":\"private\"},\"date\":1666201860,\"text\":\"➡️ Далі\"}}', 1640, 'Кристина', 'brisevak', 'ru', 325205717, 'text', 1666201860, '➡️ Далі');
-INSERT INTO `t_dialogs` VALUES (65, '{\"update_id\":844123376,\"message\":{\"message_id\":1642,\"from\":{\"id\":325205717,\"is_bot\":false,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"language_code\":\"ru\"},\"chat\":{\"id\":325205717,\"first_name\":\"Кристина\",\"username\":\"brisevak\",\"type\":\"private\"},\"date\":1666201866,\"text\":\"Дрсжрсдрс\"}}', 1642, 'Кристина', 'brisevak', 'ru', 325205717, 'text', 1666201866, 'Дрсжрсдрс');
 
 SET FOREIGN_KEY_CHECKS = 1;
