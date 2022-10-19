@@ -11,7 +11,7 @@
  Target Server Version : 50568
  File Encoding         : 65001
 
- Date: 19/10/2022 22:57:41
+ Date: 19/10/2022 23:01:46
 */
 
 SET NAMES utf8mb4;
@@ -103,15 +103,11 @@ CREATE TABLE `t_answers_keyboards`  (
 -- ----------------------------
 -- Records of t_answers_keyboards
 -- ----------------------------
-INSERT INTO `t_answers_keyboards` VALUES (6, 2, 3, 3, '🩸 Вбивці в Бучі/Ірпіні/Гостомелі', 'b37212390668081a7232db153040d901', '{\"branch\":6,\"step\":1}');
+INSERT INTO `t_answers_keyboards` VALUES (6, 2, 3, 0, '🩸 Вбивці в Бучі/Ірпіні/Гостомелі', 'b37212390668081a7232db153040d901', '{\"branch\":6,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (19, 2, 6, 0, 'Власні спостереження', '235887ddd352ab2eb594969490db38a7', '{\"branch\":1,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (20, 2, 6, 1, 'Повідомили знайомі', 'ab089c573fe148886c707ac33f57351d', '{\"branch\":1,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (21, 2, 6, 2, 'Соцмережі або чутки', 'b0d94308dab5731e0bc7fa8fcf32f5a5', '{\"branch\":1,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (22, 3, 6, 3, '↩️ Назад', 'bcf8a4bd588438d37b5a3beaa356407e', '{\"branch\":7,\"step\":1}');
-INSERT INTO `t_answers_keyboards` VALUES (23, 2, 7, 0, '🚛 Техніку', '652183e59d1499b74094cf19bf76a1bd', '{\"branch\":2,\"step\":1}');
-INSERT INTO `t_answers_keyboards` VALUES (24, 2, 7, 0, '🪖 Окупантів', 'a4f4d27ac4339cb55a7ac7254a6546ae', '{\"branch\":3,\"step\":1}');
-INSERT INTO `t_answers_keyboards` VALUES (25, 2, 7, 1, '🇷🇺 Повідомити про колаборантів', '8332ab3a19f04d3b5f5bfcc017326545', '{\"branch\":4,\"step\":1}');
-INSERT INTO `t_answers_keyboards` VALUES (26, 2, 7, 2, '🧨 Вибухонебезпечні та підозрілі предмети', '5b8a779ab880be19b15faf49e3039f6d', '{\"branch\":5,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (27, 2, 7, 3, '🩸 Вбивці в Бучі/Ірпіні/Гостомелі', 'b37212390668081a7232db153040d901', '{\"branch\":6,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (28, 2, 8, 0, 'Буча', 'ac9e57e31c4babc7d36a4008ab1fb573', '{\"branch\":21,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (29, 2, 8, 0, 'Ірпінь', '654dbb9170e6d37b5710d13498565916', '{\"branch\":21,\"step\":1}');
