@@ -11,7 +11,7 @@
  Target Server Version : 50568
  File Encoding         : 65001
 
- Date: 19/10/2022 22:55:06
+ Date: 19/10/2022 22:57:41
 */
 
 SET NAMES utf8mb4;
@@ -103,10 +103,6 @@ CREATE TABLE `t_answers_keyboards`  (
 -- ----------------------------
 -- Records of t_answers_keyboards
 -- ----------------------------
-INSERT INTO `t_answers_keyboards` VALUES (1, 2, 3, 0, '🚛 Техніку', '652183e59d1499b74094cf19bf76a1bd', '{\"branch\":1,\"step\":1}');
-INSERT INTO `t_answers_keyboards` VALUES (3, 2, 3, 0, '🪖 Окупантів', 'a4f4d27ac4339cb55a7ac7254a6546ae', '{\"branch\":1,\"step\":1}');
-INSERT INTO `t_answers_keyboards` VALUES (4, 2, 3, 1, '🇷🇺 Повідомити про колаборантів', '8332ab3a19f04d3b5f5bfcc017326545', '{\"branch\":1,\"step\":1}');
-INSERT INTO `t_answers_keyboards` VALUES (5, 2, 3, 2, '🧨 Вибухонебезпечні та підозрілі предмети', '5b8a779ab880be19b15faf49e3039f6d', '{\"branch\":1,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (6, 2, 3, 3, '🩸 Вбивці в Бучі/Ірпіні/Гостомелі', 'b37212390668081a7232db153040d901', '{\"branch\":6,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (19, 2, 6, 0, 'Власні спостереження', '235887ddd352ab2eb594969490db38a7', '{\"branch\":1,\"step\":1}');
 INSERT INTO `t_answers_keyboards` VALUES (20, 2, 6, 1, 'Повідомили знайомі', 'ab089c573fe148886c707ac33f57351d', '{\"branch\":1,\"step\":1}');
